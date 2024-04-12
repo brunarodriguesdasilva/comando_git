@@ -1,0 +1,100 @@
+git init: Inicializa um novo repositório Git.
+git clone (URL): Clona um repositório Git existente.
+git add (arquivo): Adiciona alterações ao índice (staging area).
+git commit -m "mensagem": Registra as alterações no repositório.
+git status: Exibe o estado atual do repositório.
+git push: Envia os commits locais para um repositório remoto.
+git pull: Atualiza o repositório local com as alterações do repositório remoto.
+git branch: Lista todas as branches no repositório local.
+git checkout (branch): Muda para a branch especificada.
+git merge (branch): Combina as alterações da branch especificada na branch atual.
+git log: Exibe o histórico de commits do repositório.
+git reset (opção): Permite reverter alterações no repositório para um estado anterior.
+git remote: Gerencia repositórios remotos.
+git fetch: Recupera objetos e referências de um repositório remoto.
+git diff: Exibe as diferenças entre commits, arquivos ou branches.
+git stash: Guarda temporariamente alterações não commitadas.
+git tag: Gerencia tags de versão.
+git config: Configura opções do Git.
+git grep: Pesquisa nos arquivos do repositório.
+git mv (arquivo): Move ou renomeia um arquivo.
+git rm (arquivo): Remove arquivos do índice e do diretório de trabalho.
+git blame (arquivo): Exibe quem modificou cada linha de um arquivo.
+git rebase (branch): Reaplica commits de uma branch em outra.
+git bisect: Ajuda a encontrar o commit que introduziu um bug.
+git cherry-pick (commit): Aplica um commit específico em uma branch.
+git show: Exibe informações sobre um commit.
+git remote add (nome) (URL): Adiciona um repositório remoto.
+git remote remove (nome): Remove um repositório remoto.
+git remote -v: Lista os repositórios remotos.
+git push --tags: Envia tags específicas para o repositório remoto.
+git revert (commit): Desfaz um commit específico.
+git fetch --prune: Remove as referências remotas que não existem mais no repositório remoto.
+git bisect (comando): Divide um intervalo de revisão em duas partes para localizar um bug.
+git reflog: Registra todas as operações de referência no repositório.
+git submodule: Gerencia repositórios aninhados.
+git clean (opções): Remove arquivos não rastreados do diretório de trabalho.
+git format-patch: Gera arquivos de patch para e-mails.
+git am: Aplica patches gerados pelo git format-patch.
+git fsck: Verifica a integridade do repositório.
+git revert HEAD: Desfaz o último commit.
+git remote show (remote): Exibe informações sobre um repositório remoto.
+git shortlog: Resumo de logs de commits.
+git log --graph: Exibe o histórico de commits em forma de grafo.
+git merge --abort: Cancela uma operação de merge em andamento.
+git bisect start: Inicia uma sessão de bissecção.
+git merge --no-ff: Realiza um merge sem fast-forward.
+git stash pop: Aplica e remove a última entrada do stash.
+git commit --amend: Adiciona alterações ao último commit.
+git diff (branch1) (branch2): Exibe as diferenças entre duas branches.
+git remote prune (remote): Remove as branches remotas que não existem mais no repositório local.
+git tag: Gerencia tags de versão.
+git config: Configura opções do Git.
+git mv (arquivo): Move ou renomeia um arquivo.
+git rm (arquivo): Remove arquivos do índice e do diretório de trabalho.
+git bisect: Ajuda a encontrar o commit que introduziu um bug.
+git show: Exibe informações sobre um commit.
+git remote add (nome) (URL): Adiciona um repositório remoto.
+git remote remove (nome): Remove um repositório remoto.
+git remote -v: Lista os repositórios remotos.
+git push --tags: Envia tags específicas para o repositório remoto.
+git fetch --prune: Remove as referências remotas que não existem mais no repositório remoto.
+git reflog: Registra todas as operações de referência no repositório.
+git submodule: Gerencia repositórios aninhados.
+git clean (opções): Remove arquivos não rastreados do diretório de trabalho.
+git format-patch: Gera arquivos de patch para e-mails.
+git am: Aplica patches gerados pelo git format-patch.
+git fsck: Verifica a integridade do repositório.
+git revert HEAD: Desfaz o último commit.
+git remote show (remote): Exibe informações sobre um repositório remoto.
+git shortlog: Resumo de logs de commits.
+git log --graph: Exibe o histórico de commits em forma de grafo.
+git merge --abort: Cancela uma operação de merge em andamento.
+git bisect start: Inicia uma sessão de bissecção.
+git merge --no-ff: Realiza um merge sem fast-forward.
+git stash pop: Aplica e remove a última entrada do stash.
+git commit --amend: Adiciona alterações ao último commit.
+git diff (branch1) (branch2): Exibe as diferenças entre duas branches.
+git remote prune (remote): Remove as branches remotas que não existem mais no repositório local.
+git remote set-head (remote) (branch): Define o branch HEAD remoto.
+git rebase -i HEAD~(número_de_commits): Realiza um rebase interativo com base em um número específico de commits.
+git rebase -i (branch): Realiza um rebase interativo com base em uma branch específica.
+git commit --no-verify -m "mensagem": Realiza um commit sem executar os ganchos de pré-commit.
+git merge-base (branch1) (branch2): Encontra o commit comum ancestral mais recente de duas branches.
+git checkout -p (branch) (arquivo): Interativamente seleciona as alterações a serem movidas para outra branch.
+git stash save "mensagem": Salva as alterações no stash com uma mensagem descritiva.
+git stash list --grep="([texto])": Lista as entradas do stash que correspondem a um padrão de texto.
+git cherry-pick --edit (commit): Realiza um cherry-pick e abre o editor para editar a mensagem de commit.
+git fsck --full: Realiza uma verificação completa da integridade do repositório.
+git config --global core.editor "(editor)": Define o editor de texto padrão para mensagens de commit.
+git clone (URL) (diretório_destino): Clona um repositório Git em um diretório específico.
+git branch -u (remote)/(branch) (branch_local): Define a branch remota como upstream da branch local.
+git checkout -b (nova_branch) (remote)/(branch): Cria uma nova branch local a partir de uma branch remota.
+git merge --squash (branch): Combina os commits de uma branch em um único commit na branch atual.
+git commit --fixup (commit): Cria um commit de "fixup" referente a um commit específico.
+git commit --fixup (commit) --autosquash: Marca automaticamente um commit de fixup para ser combinado durante um rebase interativo.
+git pull --rebase: Realiza um pull e rebase, evitando merges.
+git reset --soft HEAD~(número_de_commits): Desfaz commits mantendo as alterações no diretório de trabalho e no índice.
+git reset --mixed HEAD~(número_de_commits): Desfaz commits mantendo as alterações no diretório de trabalho, mas não no índice.
+git reset --hard HEAD~(número_de_commits): Desfaz commits e descarta todas as alterações no diretório de trabalho.
+git show-branch: Exibe as relações entre branches.
